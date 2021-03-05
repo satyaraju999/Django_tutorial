@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>About-Django Tutorials</title>
 </head>
 <body>
-    <h1> About us <h1>
+    <a href="{% url 'home' %}" id = "home" name="first_app/home" style="margin-left: 39px;">Home </a>
+    <a href="{% url 'about' %}" id = "about" name="first_app/about" style="margin-left: 39px;">About </a>
+    <button type="button" name="Sign In" style="margin-left: 809px;" >Sign In</button>
+    <button type="button" name="Sign Up" style="display: inline-flex; margin-left: 20px;padding: " >Sign Up</button>
+    <h1 style="margin-left: 20px;"> About Django Tutorials </h1>
+    <p style="margin-left: 20px;"> Learning and practicing Django </p>
+    <br>
+    <h3 style="margin-top: 323px;margin-left: 20px;"> Contact Us </h3>
+    <a style="margin-left: 20px;" href="example@trading.com">example@trading.com </a>
+
 </body>
 </html>
